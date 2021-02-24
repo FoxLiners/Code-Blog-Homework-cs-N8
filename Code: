@@ -1,0 +1,68 @@
+using System;
+
+namespace HomeWork___
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Player First = new Player();
+            First.name = "Artem";
+            First.age = 14;
+            First.exp = 156;
+
+            Player Second = new Player();
+            Second.name = "Kolya";
+            Second.age = 14;
+            Second.exp = 1058;
+
+            Player Third = new Player();
+            Third.name = "Vladimir";
+            Third.age = 68;
+            Third.exp = 200000000000;
+
+            var Four = new Gamer();
+            Four.name = "Yakov";
+            Four.age = 14;
+            Four.exp = 5984;
+            Four.PC = "Good";
+            Four.hours = 468;
+
+            var Five = new GEEK();
+            Five.name = "Abraham";
+            Five.age = 23;
+            Five.exp = 5478654;
+            Five.PC = "Awesome";
+            Five.hours = 12457;
+            Five.TradeLevel = 100;
+
+            Console.WriteLine("Name: " + First.name);
+            Console.WriteLine("age: " + First.age);
+            Console.WriteLine("exp = " + First.exp);
+            Console.WriteLine();
+            Console.WriteLine("Name: " + Second.name);
+            Console.WriteLine("age: " + Second.age);
+            Console.WriteLine("exp = " + Second.exp);
+            Console.WriteLine();
+            Console.WriteLine("Name: " + Third.name);
+            Console.WriteLine("age: " + Third.age);
+            Console.WriteLine("exp = " + Third.exp);
+            Console.WriteLine();
+            Console.WriteLine("Name: " + Four.name);
+            Console.WriteLine("age: " + Four.age);
+            Console.WriteLine("exp = " + Four.exp);
+            Console.WriteLine("PC level - " + Four.PC);
+            Console.WriteLine("Hours: " + Four.hours);
+            Console.WriteLine();
+            Console.WriteLine("Name: " + Five.name);
+            Console.WriteLine("age: " + Five.age);
+            Console.WriteLine("exp = " + Five.exp);
+            Console.WriteLine("PC level - " + Five.PC);
+            Console.WriteLine("Hours: " + Five.hours);
+            Console.WriteLine("Trade level: " + Five.TradeLevel);
+
+            Console.ReadLine();
+
+        }
+    }
+}
